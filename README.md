@@ -61,6 +61,20 @@ Created a visual model highlighting seasonal patterns and state-level risks, all
 Online channels contributed the most revenue (**28M**), while transient customers accounted for the largest loss (**11.5M**).  
 
 
+### ⚔️ Conflicts in Nigeria Dashboard
+**File:** `Conflicts in Nigeria.pbix`  
+**Tools:** Power BI  
+**Focus:** Incident and conflict analytics across Nigerian states  
+
+**Highlights:**
+- Aggregated incident data by **region, actor type, and year** for Nigeria  
+- Built heatmaps to visualize conflict intensity and kill-counts by state  
+- Modeled correlations between event frequency and casualty count using DAX time-intelligence  
+
+**Insights:**  
+The North-East and North-Central zones show prominent spikes in violence, with stabilization trends emerging post-2020.
+
+
 
 ---
 
