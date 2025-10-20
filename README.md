@@ -7,11 +7,7 @@ Each project solves real-world analytical problems using structured data, DAX, a
 
 ## 🧠 About Me
 I’m **Eniayo Ibirogba**, a data analyst with hands-on experience in **operations, compliance, and business intelligence**, passionate about data-driven decision-making.  
-My goal is to build scalable dashboards that uncover trends, optimize processes, and support strategic growth.
-
-- 📍 Based in Ontario, Canada  
-- 💼 Supervisor – Operations & Compliance @ Nexim Healthcare  
-- 🎓 MSc in Political Science (specializing in International Law & Diplomacy)  
+My goal is to build scalable dashboards that uncover trends, optimize processes, and support strategic growth. 
 - 💡 Focus Areas: Data Analytics, Process Optimization, and Policy Research  
 
 ---
