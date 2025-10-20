@@ -1,33 +1,37 @@
 # 📊 Data Analytics Portfolio Projects
 
-Welcome to my **Data Analytics Portfolio**, a collection of hands-on projects demonstrating my skills in **Power BI**, **SQL**, and **data storytelling**.  
-Each project here highlights a real-world business challenge, from COVID-19 data analysis to hotel performance and road accident analytics.
+Welcome to my **Data Analytics Portfolio**, a curated collection of projects demonstrating my expertise in **Power BI**, **SQL**, and **data storytelling**.  
+Each project solves real-world analytical problems using structured data, DAX, and Power Query (M), showcasing how I turn raw data into actionable business insights.
 
 ---
 
 ## 🧠 About Me
-I’m **Eniayo Ibirogba**, a data analyst with a strong foundation in **SQL**, **Power BI**, and **data modeling**, backed by real-world experience in operations, compliance, and business intelligence.  
-I enjoy turning raw data into clear insights that drive smarter decisions.
+I’m **Eniayo Ibirogba**, a data analyst with hands-on experience in **operations, compliance, and business intelligence**, passionate about data-driven decision-making.  
+My goal is to build scalable dashboards that uncover trends, optimize processes, and support strategic growth.
 
-- 📍 Based in Canada  
+- 📍 Based in Ontario, Canada  
+- 💼 Supervisor – Operations & Compliance @ Nexim Healthcare  
 - 🎓 MSc in Political Science (specializing in International Law & Diplomacy)  
-- 💡 Interests: Data Analytics, Process Optimization, and Policy Research  
+- 💡 Focus Areas: Data Analytics, Process Optimization, and Policy Research  
 
 ---
 
 ## 🚀 Projects Overview
 
 ### 🦠 COVID-19 Data Exploration
-**File:** `Covid.pbix` | **SQL Script:** `Covid Portfolio Query Script.sql`  
+**Files:** `Covid.pbix`, `Covid Portfolio Query Script.sql`  
 **Tools:** SQL Server, Power BI  
-**Focus:** Data cleaning, calculated fields, trend analysis  
+**Focus:** Global and continental COVID-19 data trends (Jan 2020–Aug 2023)
 
 **Highlights:**
-- Extracted and cleaned global COVID data using SQL  
-- Designed a Power BI dashboard showing case trends, mortality rates, and vaccination progress  
-- Created KPIs and dynamic visuals by country, continent, and time period  
+- Cleaned and queried data with SQL to create an analytical data model  
+- Visualized confirmed cases, deaths, and mortality rates globally and across Africa  
+- Built interactive reports with filters by **continent, country, and period**  
 
-**Key Skills:** Joins, CTEs, DAX Measures, Power Query (M Language)
+**Insights:**  
+The U.S. recorded **103M confirmed cases**, 319% higher than the U.K., reflecting the pandemic’s uneven spread.  
+Africa’s case distribution ranged from **330K (Botswana)** to **4M (South Africa)**.
+
 
 ---
 
@@ -37,25 +41,30 @@ I enjoy turning raw data into clear insights that drive smarter decisions.
 **Focus:** Safety and transport performance analytics  
 
 **Highlights:**
-- Built an interactive dashboard analyzing accident trends and causes  
-- Mapped high-risk areas using custom visuals and drill-through insights  
-- Enabled management-level reporting with slicers for location, vehicle type, and severity  
+- Designed KPI visuals to identify top accident locations and causes  
+- Integrated severity and time-of-day filters for decision insights  
+- Used DAX measures for average casualties, monthly trend variance, and region grouping  
 
-**Key Skills:** DAX, Data Modeling, Conditional Formatting, Map Visualization
+**Insights:**  
+Created a visual model highlighting seasonal patterns and state-level risks, allowing for targeted safety interventions.
+
 
 ---
 
 ### 🏨 SGH Hotel Analytics
 **File:** `SGH Hotel.pbix`  
 **Tools:** Power BI  
-**Focus:** Hospitality performance and revenue management  
+**Focus:** Revenue, booking, and cancellation performance analysis  
 
 **Highlights:**
-- Analyzed room occupancy, booking trends, and customer segmentation  
-- Built KPI cards for RevPAR, ADR, and Occupancy Rate  
-- Used date intelligence functions and measures to visualize YoY growth  
+- Evaluated **75K bookings**, **44K cancellations** (59% rate), and **43M net revenue**  
+- Compared performance across **Direct, Corporate, Online, and Offline** channels  
+- Built time-intelligence DAX measures to track **YoY and MoM growth**  
 
-**Key Skills:** DAX Time Intelligence, Data Modeling, Power Query Transformations  
+**Insights:**  
+Online channels contributed the most revenue (**28M**), while transient customers accounted for the largest loss (**11.5M**).  
+
+
 
 ---
 
@@ -65,10 +74,24 @@ I enjoy turning raw data into clear insights that drive smarter decisions.
 |-----------|-------|
 | **Data Visualization** | Power BI |
 | **Data Analysis** | SQL Server, DAX, Power Query (M) |
-| **Data Modeling** | Star Schema, Relationships, Measures |
-| **Other Skills** | Excel, Python (basic), Power Automate |
+| **Data Modeling** | Star Schema, Relationships, KPIs |
+| **Other Skills** | Excel, Power Automate, Python (basic) |
+
+---
+
+## 📚 Data Sources
+- COVID-19 dataset: Publicly available WHO/Our World in Data repository  
+- SGH Hotel dataset: Synthetic dataset created for analytical demonstration  
+- Road Accidents dataset: UK open government dataset  
+
+---
+
+## 🧩 How to Open
+1. Download `.pbix` files from this repository  
+2. Open with **Power BI Desktop (version 2.128+ recommended)**  
+3. Enable data model relationships and review DAX measures under *Model view*  
+4. Use provided `.sql` script to reproduce queries for the COVID dataset
 
 ---
 
 ## 📂 Repository Structure
-
